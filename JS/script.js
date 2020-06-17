@@ -13,9 +13,9 @@ btn.addEventListener("click" ,function() {
     //   alert("Il campo km non può essere vuoto!");
     // }
     //
-    // if (/\D/.test(km)) {
-    //   alert("Non sono ammessi caratteri nel campo km :)");
-    // }
+    if (km <= 0) {
+      alert("Non sono ammessi caratteri o km minori di 0 nel campo km :)");
+    }
 
   var tot;
   var kmE = 0.21;
