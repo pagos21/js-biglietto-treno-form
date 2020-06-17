@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nameclass{
+  margin: 20px 5px;
+
+}
+
+.kmclass{
+  margin: 20px 5px;
+
+}
+
+.kmclass input{
+  padding: 10px;
+}
+
+.catclass{
+  margin: 20px 5px;
+
+}
+
+#ticket{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  font-weight: bold;
+}
+
+table{
+  border: 3px solid red;
+}
+
+table th{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+table thead{
+  border: 1px solid green;
+
+}
+
+
+
+.hidden{
+  opacity: 0;
+  transition: all .5s;
+}
+
+.show {
+  opacity: 1;
+  transition: all .5s;
+}
